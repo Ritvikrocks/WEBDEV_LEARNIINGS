@@ -22,15 +22,22 @@ padding-bottom: 50px;
 body{background-color:gray;
 padding:45px;}
 
+box {
+    /* Existing styles */
+    transition: background-color 0.3s ease;
+}
 
+.box1:hover {
+    background-color: #ffcc00; /* Change to your desired color */
+}
 
 .capsules span{ 
 border-radius:6px;
 padding-bottom: auto;}
 .button{text-align: center;
 }
-.button button:hover{
-    background-color: wheat;
+.button button:hover{ transition: background-color 0.4s ease-in;
+    background-color: rgb(255, 0, 0);
 }
 </style>    
 </head>
